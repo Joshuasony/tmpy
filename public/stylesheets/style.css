@@ -39,6 +39,7 @@ small {
 
 #drop:hover {
   background-color: #e6e6e6;
+  border: 3px dashed #b9b9b9;
 }
 
 #drop > input {
@@ -62,6 +63,15 @@ span.drop-hint {
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
+
+ul#uploads {
+  list-style-type: square;
+}
+
+#uploads li {
+  padding: .2rem .5rem;
+}
+
 #uploads progress {
   margin-right: 0.5em;
 }
@@ -76,14 +86,14 @@ progress {
   background-color: #eee;
 }
 progress::-moz-progress-bar {
-  background-color: #99d;
+  background-color: #00B7FF;
   transition: background-color 100ms;
 }
 progress:indeterminate::-moz-progress-bar {
   background-color: #dd9;
 }
 progress::-webkit-progress-value {
-  background-color: #99d;
+  background-color: #00B7FF;
   transition: background-color 100ms;
 }
 progress::-webkit-progress-bar {
